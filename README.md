@@ -4,6 +4,8 @@ This project is an integrated AI system for Smart Manufacturing, demonstrating t
 
 It addresses critical industrial needs by linking human safety monitoring, AI model robustness, and machine health prediction.
 
+---
+
 **🚀 Knowledge Integration Showcase**
 
 This integrated system demonstrates mastery across three specialized project domains:
@@ -12,6 +14,9 @@ The core function of the system is split between real-time monitoring and predic
 
 Simultaneously, the Predictive Maintenance component addresses (Harmonic Analysis). It uses time-series analysis techniques to analyze simulated vibration and harmonic features from the machine. We apply a Time-Series Classification model (Random Forest) to forecast the machine's health, ensuring continuous operation and preventing unplanned downtime.
 
+---
+
+```
 **📁 Project Structure**
 
 *fws-pm-integrated-system/**
@@ -21,10 +26,12 @@ Simultaneously, the Predictive Maintenance component addresses (Harmonic Analysi
 ├── requirements.txt
 └── output/              # Stores visualization results (safety check images).
 
+```
+---
 
 **🛠️ How to Run**
 
-1. Setup
+**1. Setup**
 
 Clone the Repository and navigate into the fws-pm-integrated-system folder.
 
@@ -32,15 +39,19 @@ Create and Activate Environment (e.g., venv\Scripts\activate).
 
 Install Dependencies:
 
+```
 pip install -r requirements.txt
+```
 
-
-2. Run the Integrated System
+**2. Run the Integrated System**
 
 Execute the single main script to run all three demos sequentially:
 
+```
 python main.py
+```
 
+---
 
 **Output**
 
@@ -51,3 +62,18 @@ scenario_A_safe.png: (Worker Safe - Green Zone)
 scenario_B_unsafe.png: (Worker Unsafe - Red Alert)
 
 The console output will summarize the Machine Health Status and the Safety Alerts.
+
+---
+
+**Relation to Smart Manufacturing & Human–Machine Collaboration**
+
+This project forms a key component of a Smart Manufacturing AI Framework.
+The system’s pose estimation module continuously monitors worker movement and posture, enabling:
+
+Real-time safety alerts in industrial environments,
+
+Behavior analysis for ergonomics and fatigue detection, and
+
+Seamless integration with predictive maintenance and multimodal monitoring systems.
+
+By providing vision-based situational awareness, this project enhances human safety and cooperation in intelligent factory environments.
